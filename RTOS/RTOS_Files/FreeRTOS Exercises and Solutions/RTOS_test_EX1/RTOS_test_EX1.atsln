@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Atmel Studio Solution File, Format Version 11.00
+Project("{54F91283-7BC4-4236-8FF9-10F437C3AD48}") = "RTOS_test_EX1", "RTOS_test_EX1\RTOS_test_EX1.cproj", "{E9D52C77-09AE-4228-B8FE-0F4CD5A82861}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|AVR = Debug|AVR
+		Release|AVR = Release|AVR
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E9D52C77-09AE-4228-B8FE-0F4CD5A82861}.Debug|AVR.ActiveCfg = Debug|AVR
+		{E9D52C77-09AE-4228-B8FE-0F4CD5A82861}.Debug|AVR.Build.0 = Debug|AVR
+		{E9D52C77-09AE-4228-B8FE-0F4CD5A82861}.Release|AVR.ActiveCfg = Release|AVR
+		{E9D52C77-09AE-4228-B8FE-0F4CD5A82861}.Release|AVR.Build.0 = Release|AVR
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,125 @@
+Don't read much on a single topic.
+
+ SWE:
+
+       v-cycle,SW Requirements Specification,SW Design,& diff bet both
+
+       static and dynamic architecture,testing categories,
+
+       configuration managements
+
+
+ C & embedded C:
+
+       some functions to comment on it as:
+
+              switch case(one of the cases without break)
+
+              postincrement and preincrement(++i,i++)->Result
+
+       #define??  #include??  #pragma??  #asm??  #ifdef...#endif?
+
+       const??  extern??  volatile??  static??  register??
+
+       'int' type??  'unsigned char' type?? (size)
+
+       static and dynamic variables
+
+       diff. bet function and Macros
+
+????????????   some MISRA rules
+
+       specifications of embedded SW
+
+ embedded system:
+
+      Real time??
+
+      Input capture??
+	Input capture is a method of dealing with input signals in an embedded system.
+	Embedded systems using input capture will record a timestamp in memory when an input signal is received. It will also set a flag indicating that an input has been captured. This allows the system to continue executing without interruption while an input is being received while still having the capability to trigger events based on the exact time when the input was received.
+
+      on activating an interrupt??
+
+      synchronous and asynchronous??
+
+      certain freq->pll*4,divider by 2=??
+
+      PWM?? (what parameters specify PWM?)
+
+      difference between microprocessor and microcontroller??
+
+      CAN and LIN?? (CAN is multi-master and Lin is single master)
+
+      deadlock??
+
+      simulator and emulator??
+
+      CPU load??
+
+      stack??
+
+
+ HR Interview(in Engilsh):
+
+       introduce yourself
+
+       an achievement in your life
+
+       point of strength and weakness in you
+
+       hard situation
+
+       leader member situation
+
+       do you see yourself a successful leader?
+
+       team member situation
+
+       graduation projects
+
+       why do you want to work in our company?
+
+       what do you think you will add to our company?
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+You will find below the topics which you need to cover in order to pass easily the exams and the technical interviews. I marked the important points to concentrate on.
+
+C / embedded C - Important
+You need to read a complete reference book for C. Skip the info which you already know , and concentrate on the points which you don't know. Ignore any chapters speaking about strings, reading or writing to files or C built-in libraries. 
+Concentrate on: Different C Types and their sizes  & Type casting & Use of Volatile keyword & Use of # preprocessor operator 
+
+Embedded Systems Concepts
+Review the main concepts of Real time embedded systems and Real time OS (RTOS) - Imp.
+Study the SW Life Cycle (named V Cycle) - Imp.
+Study the difference between Validation and Verification - Imp.
+Study the difference between the different types of testing, (unit testing, integration testing and validation) - Imp.
+Difference between Simulator, Debugger and Emulator - Imp.
+Read about Model based development - Just know the idea
+Pre-compile , Link time and post build configuration
+Benefits of XML
+You need to have an experience with one microcontroller atleast
+
+Automotive
+Understand the need of multiple ECUs in cars and check some examples of ECUs (ex. Climate control, Wipers, Engine management)
+Know how different ECUs communicate and make a brief reading of the different bus used in the cars (LIN and CAN) - Imp.
+Read about the car diagnostics (UDS and OBD) - Just know the idea
+Read about AUTOSAR standard (Benefits and Architecture)
+
+If there is something which is not clear , please let me know.
+If the HR called you for the exams or to make the interviews, please let me know
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+About the exam really I don't know the current exam here in Valeo, but you should be strong in C and you can review it from the following link http://aelinik.free.fr/c/ , and try to read about software process (Types, techniques.... ), and at last they will ask you about a controller you have worked on it. About the HR interview you can read on the internet about HR interviews hints it always be the same and try to be semantic and simple in your answers and confident and not to be nervous, Mowafak inshaa ALLAH. 
+
+
+æÏå ßáÇã åÔÇã ÚÑÇÞí
+
+pulse width modulation
+V-cycle (validation-testing)
+Embedded C (pointers-trikes of c  like difference bet. x++ and ++x),diff. bet. constant and volatile)
+if def  function
+rentrant func
+UART
+SPI
+ITC (mesh 3aref 2eh dee)
+CAN-LIN buses
+macros
